@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             else {
                                 userProfile();
-                                Toast.makeText(MainActivity.this, "Account Created", Log.d("Test", "Account Created"));
+                                Toast.makeText(MainActivity.this, "Account Created",  Toast.LENGTH_SHORT).show();
                             }
                             // ...
                         }
